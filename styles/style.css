@@ -150,9 +150,7 @@ header{
     background-repeat: no-repeat;
     margin: 50px 0;
     border-radius: 10px;
-    background: linear-gradient(to right, rgba(100, 45, 0, 0.5), rgba(100, 100, 0, 0.5));
-    z-index: 2;
-    margin: 50px 0;
+    margin: 125px 0;
 }
 .action-area-content h1{
     font-weight: 700;
@@ -164,6 +162,8 @@ header{
 }
 .action-area-content{
     padding: 45px 60px;
+    background-image:
+    linear-gradient(to right, rgba(0, 95, 172, 1), rgba(117, 19, 93, 0));
 }
 .btn-call{
     padding: 21px 26px;
@@ -175,13 +175,14 @@ header{
     cursor: pointer;
 }
 footer{
+    
     background-color: #000;
-    padding: 130px 0;
 }
 .footer-area-content{
     display: flex;
     justify-content: space-around;
     color: #fff;
+    padding: 130px 0;
 }
 .footer-left h1{
     font-weight: 700;
@@ -242,9 +243,19 @@ footer{
     color: #fff;
 }
 .subscribe-area input[type=submit]{
-    color: #F15B22;
+    color: #fff;
     font-weight: 700;
     line-height: 24px;
     font-size: 20px;
-
+    background-color: #005FAC;
+    cursor: pointer;
+}
+.copyright-area{
+    text-align: center;
+}
+.copyright-area p{
+    color: #fff;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    background-color: #000;
 }
