@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section{
+    margin: 50px 0;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+/* top header styles */
+
+header{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 740px;
+    padding: 100px 0;
+
+    
+}
+.top-header{
+    display: flex;
+}
+.top-header-left{
+    float: left;
+    width: 50%;
+}
+.top-header-content{
+    overflow: hidden;
+    width: 50%;    
+    padding: 223px 262px;
+}
+.top-header-content h1{
+   
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    text-align: right;
+    color: #fff;
+    margin-bottom: 24px;
+    font-family: 'Work Sans';
+}
+.top-header-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: right;
+    color: #fff;
+    padding-left: 192px;
+    margin-bottom: 32px;
+}
+.btn-contact{
+    padding: 21px 26px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    cursor: pointer;
+    float: right;
+}
+.experience-section{
+    display: flex;
+    padding: 120px 170px;
+    justify-content: center;
+}
+
+.experience-content{
+    text-align: left;
+    margin-left: 83px;
+    margin-top: 210px;
+
+}
+.experience-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: left;
+    color: #151414;
+    margin-bottom: 24px;
+
+}
+.experience-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.experience-content ul{
+    list-style: none;
+    padding-left: 0;
+}
+.experience-content ul li{
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.experience-content ul li i{
+    color: #16D887;
+    margin-right: 8px;
+    margin-top: 2px;
+}
+.section-title h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.all-plan{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.skils h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin-top: 20px;
+}
+.skils h5{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+    margin-top: 16px;
+}
+.call-to-action-area{
+    background-image: url(../images/watch.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(100, 45, 0, 0.5), rgba(100, 100, 0, 0.5));
+    z-index: 2;
+    margin: 50px 0;
+}
+.action-area-content h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    width: 45%;
+}
+.action-area-content{
+    padding: 45px 60px;
+}
+.btn-call{
+    padding: 21px 26px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    cursor: pointer;
+}
+footer{
+    background-color: #000;
+    padding: 130px 0;
+}
+.footer-area-content{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.footer-left h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 20px;
+}
+.footer-left p{
+    margin-bottom: 20px;
+    padding-right: 50px;
+    width: 45%;
+}
+
+.social-icon li{
+    display: inline-block;
+}
+.social-icon{
+    margin-top: 35px;
+}
+.social-icon ul{
+    list-style: none;
+    padding-left: 0;
+}
+.social-icon i{
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: 10px;
+}
+.fa-facebook{
+    color: #006AFF;
+}
+.fa-twitter{
+    color: #1DA1F2;;
+}
+.fa-youtube{
+    color: #FF0000;
+}
+.subscribe-area h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 20px;
+}
+.subscribe-area input{
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.subscribe-area input[type=Email]{
+    background-color: #151414;
+    border: 1px solid #fff;
+    color: #fff;
+    padding-right: 110px;
+}
+.subscribe-area ::placeholder{
+    color: #fff;
+}
+.subscribe-area input[type=submit]{
+    color: #F15B22;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 20px;
+
+}
