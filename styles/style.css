@@ -164,6 +164,7 @@ header{
     padding: 45px 60px;
     background-image:
     linear-gradient(to right, rgba(0, 95, 172, 1), rgba(117, 19, 93, 0));
+    border-radius: 10px;
 }
 .btn-call{
     padding: 21px 26px;
