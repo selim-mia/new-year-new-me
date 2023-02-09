@@ -34,7 +34,7 @@ header{
 .top-header-content{
     overflow: hidden;
     width: 50%;    
-    padding: 223px 262px;
+    padding: 223px 0;
 }
 .top-header-content h1{
    
