@@ -12,7 +12,6 @@ section{
     margin: 0 auto;
 }
 /* top header styles */
-
 header{
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
@@ -65,6 +64,9 @@ header{
     cursor: pointer;
     float: right;
 }
+/* End of header section styles */
+
+/* Experience section styles */
 .experience-section{
     display: flex;
     padding: 120px 170px;
@@ -110,6 +112,9 @@ header{
     margin-right: 8px;
     margin-top: 2px;
 }
+/* end of experience section */
+
+/* Plan section styles */
 .section-title h2{
     text-align: center;
     font-weight: 800;
@@ -141,6 +146,9 @@ header{
     color: #737272;
     margin-top: 16px;
 }
+/* End of plan section */
+
+/* Call to action styles */
 .call-to-action-area{
     background-image: url(../images/watch.png);
     background-size: cover;
@@ -152,7 +160,7 @@ header{
     border-radius: 10px;
     margin: 125px 0;
 }
-.action-area-content h1{
+.action-area-content h2{
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -175,6 +183,9 @@ header{
     color: #F15B22;
     cursor: pointer;
 }
+/* End of call to action */
+
+/* footer styles */
 footer{
     
     background-color: #000;
@@ -251,6 +262,7 @@ footer{
     background-color: #005FAC;
     cursor: pointer;
 }
+/* Copyright content styles */
 .copyright-area{
     text-align: center;
 }
@@ -260,3 +272,5 @@ footer{
     padding-bottom: 50px;
     background-color: #000;
 }
+
+/* End of footer styles */
